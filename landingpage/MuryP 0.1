@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="home" content="">
+  <title>MuryP</title>
+  <style type="text/css" media="all">
+    /* ========= reset ========== */
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    a,a:hover,a:link {
+      text-decoration: none;
+      color: #fff;
+    }
+    blockquote {
+      padding: 15px;
+      background: rgba(18,147,230,0.709);
+      border-left: 5px solid #1293e6;
+      color: #fff;
+      margin: 15px;
+    }
+    /* =============== Bagian Atas =========== */
+    .BagianAtas {
+      text-align: center;
+      background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg version='1.1' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg' xmlns:cc='http://creativecommons.org/ns%23' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:osb='http://www.openswatchbook.org/uri/2009/osb' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Cmetadata%3E%3Crdf:RDF%3E%3Ccc:Work rdf:about=''%3E%3Cdc:format%3Eimage/svg+xml%3C/dc:format%3E%3Cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage'/%3E%3Cdc:title/%3E%3C/cc:Work%3E%3C/rdf:RDF%3E%3C/metadata%3E%3Cdefs%3E%3Cfilter id='c' x='-.1102' y='-.13282' width='1.2204' height='1.2656' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur in='SourceAlpha' result='result0' stdDeviation='6.135453'/%3E%3CfeOffset dx='5' dy='5' result='result4'/%3E%3CfeComposite in='SourceGraphic' in2='result4' operator='xor' result='result3'/%3E%3C/filter%3E%3Cfilter id='a' x='-.35354' y='-3.2455' width='1.7071' height='7.491' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur in='SourceAlpha' result='result0' stdDeviation='29.673471'/%3E%3CfeOffset dx='5' dy='5' result='result4'/%3E%3CfeComposite in='SourceGraphic' in2='result4' operator='xor' result='fbSourceGraphic'/%3E%3CfeColorMatrix in='fbSourceGraphic' result='fbSourceGraphicAlpha' values='0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0'/%3E%3CfeGaussianBlur in='fbSourceGraphicAlpha' result='result0' stdDeviation='4'/%3E%3CfeOffset dx='5' dy='5' result='result4'/%3E%3CfeComposite in='fbSourceGraphic' in2='result4' operator='xor' result='result3'/%3E%3C/filter%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur in='SourceAlpha' result='result0' stdDeviation='4'/%3E%3CfeOffset dx='5' dy='5' result='result4'/%3E%3CfeComposite in='SourceGraphic' in2='result4' operator='xor' result='result3'/%3E%3C/filter%3E%3C/defs%3E%3Crect x='-4.5972e-6' y='9.9609e-7' width='200.76' height='202.75' fill='%231293e7'/%3E%3Cpath d='m137.58 83.381c11.4 14 26.9 25 29.3 40.3 2.3 15.3-8.6 34.9-20.3 33-11.7-2-24.3-25.6-46.3-34.3-22.1-8.7-53.8-2.6-63.5-11.2-9.7-8.6 4.1968-31.9 20.297-46.9 16.1-15 34.503-21.7 48.203-16.7 13.6 5.1 20.9 21.9 32.3 35.8z' fill='%233ca5e9' style='mix-blend-mode:normal'/%3E%3Cpath transform='matrix(.98456 0 0 .15269 -.11287 160.92)' d='m-0.67299 184.52 11.191 1.8236c11.191 1.8236 33.573 5.4708 55.955 4.2512 22.382-1.1739 44.764-7.3286 67.146-9.118 22.382-1.8578 44.764 0.64966 55.955 1.8236l11.191 1.2195v18.236h-11.191-55.955-67.146-55.955-11.191z' filter='url(%23a)' opacity='.48515' stroke-width='.12627' style='mix-blend-mode: normal'/%3E%3Cpath d='m-1.7615 184.42 11.251 1.8334c11.251 1.8334 33.754 5.5003 56.257 4.2742 22.503-1.1803 45.006-7.3681 67.509-9.1672 22.503-1.8678 45.006 0.65317 56.257 1.8334l11.251 1.2261v18.334h-11.251-56.257-67.509-56.257-11.251z' fill='%2370bdf1' stroke-width='.12695'/%3E%3Cpath d='m137.58 83.381c11.4 14 26.9 25 29.3 40.3 2.3 15.3-8.6 34.9-20.3 33-11.7-2-24.3-25.6-46.3-34.3-22.1-8.7-53.8-2.6-63.5-11.2-9.7-8.6 4.1968-31.9 20.297-46.9 16.1-15 34.503-21.7 48.203-16.7 13.6 5.1 20.9 21.9 32.3 35.8z' fill='%23515151' fill-opacity='.96506' filter='url(%23c)' opacity='.18482' style='mix-blend-mode: normal'/%3E%3Cpath d='m-1.7615 184.42 11.191 1.8236c11.191 1.8236 33.573 5.4708 55.955 4.2512 22.382-1.1739 44.764-7.3286 67.146-9.118 22.382-1.8578 44.764 0.64966 55.955 1.8236l11.191 1.2195v18.236h-11.191-55.955-67.146-55.955-11.191z' filter='url(%23b)' opacity='.10891' stroke-width='.12627'/%3E%3C/svg%3E%0A");
+      color: #fff;
+      background-size: 100%;
+      max-height: 50vh;
+      height: 100vw;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .BagianAtas {
+      text-align: center;
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: auto;
+      padding: 10px;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+
+      border-radius: 0 0 20px 20px;
+    }
+    .bagianDalam {
+      display: block;
+
+      margin-top: 50px;
+    }
+    .btn {
+      color: #fff;
+      background: #d10b0cba;
+      padding: 10px 50px;
+      border-radius: 50px;
+    }
+    .bagianDalam h4 {
+      padding: 10px;
+    }
+
+    /* ========= Navigasi ======== */
+    .nav input[type=checkbox] {
+      display: none
+    }
+    .nav {
+      display: block;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 9;
+      right: 0
+    }
+    #navbar {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 50px;
+      padding: 10px;
+      height: 50px;
+      cursor: pointer;
+      user-select: none;
+      flex-direction: column;
+      justify-content: space-evenly;
+      display: flex;
+      position: fixed;
+      z-index: 100;
+      right: 0
+    }
+    .navku {
+      position: absolute;
+      list-style: none;
+      text-align: right;
+      width: 100%;
+      z-index: 1;
+      max-width: 0!important;
+      overflow-y: scroll;
+      height: 100vh;
+      top: 0;
+      background: rgb(26,112,198,0.5);
+      color: #fff;
+      margin-bottom: 0;
+      transition: 1s;
+      opacity: 0;
+      right: 0;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgb(0,0,0,0.5)
+    }
+    div.navku li {
+      list-style: none;
+      cursor: pointer;
+      display: block
+    }
+    div.navku li a:hover {
+      background-color:rgba(0,0,0,0.2) ;
+      color: #fff;
+      font-size: 1.1em
+    }
+    div.navku li a {
+      display: block;
+      width: 90%;
+      height: 20px;
+      color: inherit;
+      padding: 15px;
+      text-shadow: 2px 2px 5px rgb(0,0,0,0.5)
+    }
+    .nav input[type=checkbox]:checked ~ #navbar {
+      background-color: transparent;
+      animation: 4s
+    }
+    .nav input[type=checkbox]:checked ~ div.navku {
+      display: block;
+      max-width: 500px!important;
+      opacity: 1
+    }
+    .nav input[type=checkbox]:checked ~ label span {
+      display: flex;
+      width: 30px;
+      height: 0;
+      background-color: #fff;
+      border-top: 1px;
+      transition: .5s;
+      margin: -9px 10px auto
+    }
+    .nav label span:nth-child(2) {
+      transform-origin: 0 0
+    }
+    .nav label span:nth-child(3) {
+      transform-origin: 0 0
+    }
+    .nav input[type="checkbox"]:checked ~ label span:nth-child(1) {
+      transform: rotate(45deg) translate(5px,23px);
+      color: #fff;
+      border: 3.5px solid
+    }
+    .nav input[type=checkbox]:checked ~ label span:nth-child(2) {
+      transform: scale(0);
+      opacity: 0
+    }
+    .nav input[type="checkbox"]:checked ~ label span:nth-child(3) {
+      transform: rotate(-45deg) translate(-17px,4px);
+      color: #fff;
+      border: 3.5px solid
+    }
+    .nav label span {
+      display: inherit;
+      width: 30px;
+      height: 0;
+      border-top: 5px solid #fff;
+      transition: .5s;
+      margin: 0 auto
+    }
+    /*Info*/
+    .cardInfo img {
+      width: 100px;
+      height: 100px;
+      margin-top: 50px;
+    }
+    .cardInfo {
+      margin: auto;
+      text-align: center;
+      border-bottom: 5px solid #fff;
+    }
+    input[id^="nav"] {
+      display: none;
+    }
+    .iconnav {
+      padding: 10px;
+    }
+    /*unchecked*/
+    .mynav2 input[id^="nav"] + label {
+      display: block;
+      width: 100%;
+      color: #fff;
+      font-size: 24px;
+      cursor: pointer;
+      transition: all .6s;
+      border-bottom: 5px solid #fff;
+      margin-top: 10px;
+    }
+    .mynav2 input[id^="nav"] + label::before
+    {
+      content: ".";
+      position: absolute;
+      color: transparent;
+      left: 0;
+      width: 50px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm7.58 0l5.988-5.995 1.414 1.416-4.574 4.579 4.574 4.59-1.414 1.416-5.988-6.006z'/%3E%3C/svg%3E");
+      background-position: right;
+      background-repeat: no-repeat;
+      transition-duration: .6s;
+    }
+    /*checked btn*/
+    .mynav2 input[id^="nav"]:checked + label {
+      width: 100%;
+      background: rgba(0,0,0,0.1);
+    }
+    .mynav2 input[id^="nav"]:checked + label::before {
+      transform: rotate(-90deg) translate(-15px,0)
+    }
+    /*isi unchecked*/
+    .mynav2 input[id^="nav"] ~ .mynav {
+      width: 0;
+      height: 0;
+      opacity: 0;
+      transition: .6s;
+      overflow: hidden;
+      text-align: Right;
+    }
+    /*isi checked*/
+    .mynav2 input[id^="nav"]:checked + label + .mynav {
+      height: auto;
+      width: 100%;
+      opacity: 1;
+    }
+    /* ========= Header ========== */
+    .header {
+      padding: 20px 0;
+      width: 100%;
+      background: rgba(20,146,230,0.5);
+      position: -webkit-sticky;
+      /* Safari */
+      position: fixed;
+      top: 0;
+      height: 18px;
+      z-index: 5;
+    }
+    .header a {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      font-weight: bold;
+      font-size: 1em;
+      z-index: 9999;
+    }
+    /* ========== SosMed ==========*/
+    div.sosmedmenu {
+      display: block;;width: 100%;
+      bottom: 0;
+      text-align: center;
+      padding: 10px
+    }
+    div.sosmedmenu a {
+      color: #fff;
+      padding: 10px
+    }
+    svg.navsosmed {
+      width: 25px;
+      fill: black;
+      padding: 10px;
+    }
+    svg.navsosmed:hover {
+      background: #1293e6;
+    }
+    /*svg*/
+    .linkedin {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z'/%3E%3C/svg%3E");
+    }
+    .blogger {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' fill='white'  viewBox='0 0 24 24'%3E%3Cpath d='M22.814 9.031h-1.95c-1 0-1.185-.764-1.185-1.707.001-4.045-3.272-7.324-7.308-7.324h-5.062c-4.037 0-7.309 3.279-7.309 7.324v9.352c0 4.045 3.272 7.324 7.309 7.324h9.383c4.036 0 7.308-3.279 7.308-7.324v-6.457c0-.657-.531-1.188-1.186-1.188zm-15.428-3.031h4.229c.765 0 1.385.671 1.385 1.5s-.62 1.5-1.386 1.5h-4.228c-.766 0-1.386-.671-1.386-1.5s.62-1.5 1.386-1.5zm9.134 12h-9.04c-.817 0-1.48-.672-1.48-1.5 0-.83.663-1.5 1.48-1.5h9.039c.817 0 1.48.67 1.48 1.5.001.828-.662 1.5-1.479 1.5z'/%3E%3C/svg%3E");
+
+    }
+    .twitter {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' fill='white'  viewBox='0 0 24 24'%3E%3Cpath d='M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z'/%3E%3C/svg%3E");
+    }
+    .telegram {
+      background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg fill='white'  viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;'%3E%3Cpath id='telegram-1' d='M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737width:150px; -11.894,7.596 -11.894,7.596Z'/%3E%3C/svg%3E");
+    }
+    .whatsapp {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' fill='white'  viewBox='0 0 24 24'%3E%3Cpath d='M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z'/%3E%3C/svg%3E");
+    }
+    .facebook {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' fill='white'  viewBox='0 0 24 24'%3E%3Cpath d='M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z'/%3E%3C/svg%3E");
+    }
+    .tumblr {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' fill='white'  viewBox='0 0 24 24'%3E%3Cpath d='M19.512 17.489l-.096-.068h-3.274c-.153 0-.16-.467-.163-.622v-5.714c0-.056.045-.101.101-.101h3.82c.056 0 .101-.045.101-.101v-5.766c0-.055-.045-.1-.101-.1h-3.803c-.055 0-.1-.045-.1-.101v-4.816c0-.055-.045-.1-.101-.1h-7.15c-.489 0-1.053.362-1.135 1.034-.341 2.778-1.882 4.125-4.276 4.925l-.267.089-.068.096v4.74c0 .056.045.101.1.101h2.9v6.156c0 4.66 3.04 6.859 9.008 6.859 2.401 0 5.048-.855 5.835-1.891l.157-.208-1.488-4.412zm.339 4.258c-.75.721-2.554 1.256-4.028 1.281l-.165.001c-4.849 0-5.682-3.701-5.682-5.889v-7.039c0-.056-.045-.101-.1-.101h-2.782c-.056 0-.101-.045-.101-.101l-.024-3.06.064-.092c2.506-.976 3.905-2.595 4.273-5.593.021-.167.158-.171.159-.171h3.447c.055 0 .101.045.101.101v4.816c0 .056.045.101.1.101h3.803c.056 0 .101.045.101.1v3.801c0 .056-.045.101-.101.101h-3.819c-.056 0-.097.045-.097.101v6.705c.023 1.438.715 2.167 2.065 2.167.544 0 1.116-.126 1.685-.344.053-.021.111.007.13.061l.995 2.95-.024.104z' fill-rule='evenodd' clip-rule='evenodd'/%3E%3C/svg%3E");
+    }
+    .pinteres {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M12 0c-6.627 0-12 5.372-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z' fill-rule='evenodd' clip-rule='evenodd'/%3E%3C/svg%3E");
+    }
+    .youtube {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100px' height='80px' fill='white'  viewBox='0 0 24 24'%3E%3Cpath d='M23.677 18.52c.914 1.523-.183 3.472-1.967 3.472h-19.414c-1.784 0-2.881-1.949-1.967-3.472l9.709-16.18c.891-1.483 3.041-1.48 3.93 0l9.709 16.18z'/%3E%3C/svg%3E");
+      transform: rotate(90deg);
+    }
+    .github {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' fill='white'  viewBox='0 0 24 24'%3E%3Cpath d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/%3E%3C/svg%3E");
+    }
+    .gmail {
+      background-image: url("data:image/svg+xml,%3Csvg width='100%' height='100%' fill='white' viewBox='0 0 24 24'  xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd'%3E%3Cpath d='M22.288 21h-20.576c-.945 0-1.712-.767-1.712-1.712v-13.576c0-.945.767-1.712 1.712-1.712h20.576c.945 0 1.712.767 1.712 1.712v13.576c0 .945-.767 1.712-1.712 1.712zm-10.288-6.086l-9.342-6.483-.02 11.569h18.684v-11.569l-9.322 6.483zm8.869-9.914h-17.789l8.92 6.229s6.252-4.406 8.869-6.229z'/%3E%3C/svg%3E");
+    }
+    .line {
+      background-image: url("data:image/svg+xml,%3Csvg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white' clip-rule='evenodd'%3E%3Cpath d='M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.121.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-3.843 2.572-5.992zm-18.988-2.595c.129 0 .234.105.234.234v4.153h2.287c.129 0 .233.104.233.233v.842c0 .129-.104.234-.233.234h-3.363c-.063 0-.119-.025-.161-.065l-.001-.001-.002-.002-.001-.001-.003-.003c-.04-.042-.065-.099-.065-.161v-5.229c0-.129.104-.234.233-.234h.842zm14.992 0c.129 0 .233.105.233.234v.842c0 .129-.104.234-.233.234h-2.287v.883h2.287c.129 0 .233.105.233.234v.842c0 .129-.104.234-.233.234h-2.287v.884h2.287c.129 0 .233.105.233.233v.842c0 .129-.104.234-.233.234h-3.363c-.063 0-.12-.025-.162-.065l-.003-.004-.003-.003c-.04-.042-.066-.099-.066-.161v-5.229c0-.062.025-.119.065-.161l.004-.004.003-.003c.042-.04.099-.066.162-.066h3.363zm-10.442.001c.129 0 .234.104.234.233v5.229c0 .128-.105.233-.234.233h-.842c-.129 0-.234-.105-.234-.233v-5.229c0-.129.105-.233.234-.233h.842zm2.127 0h.008l.012.001.013.001.01.001.013.003.008.003.014.004.008.003.013.006.007.003.013.007.007.004.012.009.006.004.013.011.004.004.014.014.002.002.018.023 2.396 3.236v-3.106c0-.129.105-.233.234-.233h.841c.13 0 .234.104.234.233v5.229c0 .128-.104.233-.234.233h-.841l-.06-.008-.004-.001-.015-.005-.007-.003-.012-.004-.011-.006-.007-.003-.014-.009-.002-.002-.06-.058-2.399-3.24v3.106c0 .128-.104.233-.234.233h-.841c-.129 0-.234-.105-.234-.233v-5.229c0-.129.105-.233.234-.233h.841z'/%3E%3C/svg%3E");
+    }
+    .instagram {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z'/%3E%3C/svg%3E");
+    }
+    .drible {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M12 0c-6.628 0-12 5.373-12 12s5.372 12 12 12 12-5.373 12-12-5.372-12-12-12zm9.885 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68 2.31-1 4.165-2.358 5.548-4.082 1.35 1.594 2.197 3.619 2.322 5.835zm-3.842-7.282c-1.205 1.554-2.868 2.783-4.986 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197 1.591-.314 2.431-.314 2.275 0 4.368.779 6.043 2.072zm-10.516-.993c1.331 1.742 2.511 3.538 3.537 5.381-2.43.715-5.331 1.082-8.684 1.105.692-2.835 2.601-5.193 5.147-6.486zm-5.44 8.834l.013-.256c3.849-.005 7.169-.448 9.95-1.322.233.475.456.952.67 1.432-3.38 1.057-6.165 3.222-8.337 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829 7.81c1.969-3.088 4.482-5.098 7.598-6.027.928 2.42 1.609 4.91 2.043 7.46-3.349 1.291-6.953.666-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897 1.876-.265 3.94-.196 6.199.196-.437 2.786-2.028 5.192-4.279 6.701z'/%3E%3C/svg%3E");
+    }
+    .behance {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z'/%3E%3C/svg%3E");
+    }
+    .deviantart {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M20 4.364v-4.364h-4.364l-.435.439-2.179 4.124-.647.437h-7.375v6h4.103l.359.404-4.462 8.232v4.364h4.509l.435-.439 2.174-4.124.648-.437h7.234v-6h-3.938l-.359-.438z'/%3E%3C/svg%3E");
+    }
+    .sosmednav span {
+      width: 50px;
+      height: 50px;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      display: inline-block;
+    }
+    .sosmednav span:hover {
+      background-color: darkblue;
+    }
+    a.ohmyheader svg {
+      width: 300px;
+      transform: translate(0,6px);
+    }
+    /*sosmed home*/
+    .sosmednav2 {
+      display: block;
+      width: 70%
+    }
+    .sosmednav2 span:hover {
+      margin: 0;
+      border-radius: 10px
+    }
+    span.facebook:hover {
+      background-color: #4867aa
+    }
+    span.twitter:hover {
+      background-color: #1da1f2
+    }
+    span.pinteres:hover {
+      background-color: #ca2128
+    }
+    span.linkedin:hover {
+      background-color: #0673ab
+    }
+    span.github:hover {
+      background-color: #000;
+    }
+    span.youtube:hover {
+      background-color: red;
+    }
+    span.instagram:hover {
+      background-color: rgb(195, 84, 245)
+    }
+    span.whatsapp:hover {
+      background-color: #4dc247
+    }
+    span.gmail:hover {
+      background-color: #141b23
+    }
+    span.telegram:hover {
+      background-color: #22a9f7
+    }
+    /* ========== Main ==========*/
+    .main {
+      max-width: 720px;
+      text-align: center;
+      margin: auto;
+    }
+    /* ========== Skill ==========*/
+    .h1myskill {
+      border-left: 10px solid #1293e6;
+      padding: 5px;
+      font-size: 1.5em;
+      color: #1293e6;
+      margin-top: 50px;
+    }
+    .myskill {
+      color: rgb(26,112,198);
+      padding: 5px;
+      font-size: 10px;
+      display: flex;
+      overflow-x: scroll;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      box-shadow: 0 0 10px #0000005c;
+      border-radius: 20px;
+      margin: 10px;
+    }
+    .myskillcontainer {
+      margin: 0 10px 0 10px;
+      min-width: 300px
+    }
+    .myskillcontainer h2 {
+      min-width: 150px;
+      background-color: #1293e6;
+      padding: 5px;
+      box-shadow: 3px 7px 8px #0000005c;
+      border-radius: 10px;
+      color: white;
+    }
+    .myskillcontainer p {
+      margin-top: 15px;
+    }
+    /* ======== navPost ========= */
+    .navpost a {
+      color: #1293e6;
+      font-weight: bold;
+      margin: 10px;
+    }
+    .navpost {
+      color: #1a70c6;
+      padding: 5px;
+      display: flex;
+      overflow-x: scroll;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin: 10px;
+    }
+    /* ======== ReadMore ========= */
+    .myread {
+      border-radius: 20px;
+      box-shadow: 0 0 10px #0000005c;
+      padding: 50px 0;
+    }
+    .readMore {
+      display: none;
+    }
+    .content:hover .readMore {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -55%);
+      color: #fff;
+      display: block;
+      background: rgb(26,112,198,0.7);
+      padding: 5px;
+      width: 180px;
+      max-height: 180px;
+      overflow: scroll;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.93);
+    }
+    .content {
+      text-align: center;
+      position: relative;
+    }
+    .content img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 15px;
+    }
+    .myread {
+      display: grid;
+      width: 100%;
+      grid-template-columns: auto auto;
+      text-align: center;
+    }
+    /* ========== Contact ========== */
+    .contactkulah h4, #footer h2 {
+      padding: 10px;
+      box-shadow: 0 0 10px #0000005c;
+      margin: 10px auto;
+      color: #fff;
+      text-align: center;
+      width: 80%;
+    }
+    ::placeholder{
+      color: #1a70c6;
+    }
+    :-ms-input-placeholder{
+      color: #1a70c6;
+    }
+    ::-ms-input-placeholder{
+      color: #1a70c6;
+    }
+    .Contactb h4,.Contactb h1 {
+      text-align: center;
+      color: #1293e6;
+    }
+    .contactkulah {
+      text-align: center;
+      color: #1293e6;
+      padding-bottom: 20px;
+    }
+    .contactkulah span {
+      background-color: #1293e6;
+    }
+    .Contactb {
+      border-radius: 50px;
+      box-shadow: 0 0 10px #0000005c;
+      padding: 20px 0;
+      margin-top: 50px !important;
+      padding-bottom: 100px;
+    }
+    /* form */
+    #ContactForm1 {
+      margin: auto;
+      padding: 5px;
+    }
+    #ContactForm1_input {
+      width: 100%
+    }
+    #ContactForm1 input,#ContactForm1 textarea {
+      width: 85%;
+      border: 0;
+      font-size: 1em;
+      padding: 10px;
+      resize: none;
+      margin: 0 0 10px 10px;
+      border: 1px solid #1a70c6
+    }
+    #ContactForm1 textarea {
+      height: 150px;
+      font-size: 1.5em
+    }
+    #ContactForm1 button {
+      font-size: 1em!important;
+      background-color: #1a70c6 !important;
+      padding: 10px!important;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: transparent;
+      width: 80%;
+    }
+    #ContactForm1 button:hover {
+      border-radius: 50px;
+      background: #023c77 !important;
+    }
+    /* ========== Footer ========== */
+    #footer {
+      background: #1293e6;
+      padding: 50px 10px;
+      color: #fff;
+      text-align: center;
+      margin-top: 20px;
+      box-shadow: 0 -8px 15px 1px #0000005c;
+      border-radius: 30px 30px 0 0;
+    }
+    .credit a {
+      color: #fff;
+      font-size: 1em;
+      padding: 10px 10px;
+      line-height: 35px
+    }
+    .credit a:hover {
+      color: #8eccf454
+    }
+    #footer hr {
+      color: #fff
+    }
+    .contactFooter {
+      width: 100%;
+      text-align: center;
+    }
+    /* Responsive */
+@media only screen and (min-width:720px) {
+      .footerTop {
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!------------- Bagian Atas ------------->
+  <div class="BagianAtas">
+    <div class="bagianDalam">
+      <h1>Hello World!</h1>
+      <p>
+        I'm MuryP. I'm from Indonesian. I'm focus on Front End now. But I like Drawing, writing, and analyzed.
+      </p>
+      <div class='sosmednav' id='sosmed'>
+        <a href='https://github.com/alifmuryp/' rel='nofollow' target='_blank' title='github'>
+          <span class='github' /></a>
+        <a href='https://www.linkedin.com/in/alifmuryp' rel='nofollow' target='_blank' title='linkedin'>
+          <span class='linkedin' /></a>
+        <a href='https://www.instagram.com/murypstudio/' rel='nofollow' target='_blank' title='instagram'>
+          <span class='instagram' /></a>
+        <a href='https://twitter.com/murypstudio' rel='nofollow' target='_blank' title='twitter'>
+          <span class='twitter' /></a>
+        <a href='https://facebook.com/murypstudio' rel='nofollow' target='_blank' title='facebook'>
+          <span class='facebook' /></a>
+        <a href='https://id.pinterest.com/alifmuryp/' rel='nofollow' target='_blank' title='pinteres'>
+          <span class='pinteres' /></a>
+        <a href='https://www.deviantart.com/alifmuryp' rel='nofollow' target='_blank' title='DevianArt'>
+          <span class='deviantart' /></a>
+        <a href='http://tumblr.com/blog/murypstudio' rel='nofollow' target='_blank' title='Tumblr'>
+          <span class='tumblr' /></a>
+        <a href='https://www.behance.net/muryp' rel='nofollow' target='_blank' title='Behance'>
+          <span class='behance' /></a>
+        <a href='https://www.dribbble.com/murypstudio' rel='nofollow' target='_blank' title='Drible'>
+          <span class='drible' /></a>
+      </div>
+      <h4><a class="btn" href="/hire">Hire Me!</a></h4>
+    </div>
+  </div>
+  <!------------- Navigation ------------->
+  <div class="nav">
+    <input type="checkbox" id="checkbox_toggle">
+    <label id="navbar" for="checkbox_toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <div class="navku mynav mynav2">
+      <div class="cardInfo">
+        <img src="https://1.bp.blogspot.com/-BWCKsx7BTRA/X7cXQfC7beI/AAAAAAAAAKw/4ALOzE5uPRkg80BcaNPTBbaNlLxRnyW_gCLcBGAsYHQ/s2048/profil-muryp-studio-min.png" alt="Avatar">
+        <div class="container">
+          <h4><b>Alif MuryP</b></h4>
+          <p>
+            Be Simple, Unique, Usefully
+          </p>
+                <div class='sosmednav' id='sosmed'>
+        <a href='https://github.com/alifmuryp/' rel='nofollow' target='_blank' title='github'>
+          <span class='github' /></a>
+        <a href='https://www.linkedin.com/in/alifmuryp' rel='nofollow' target='_blank' title='linkedin'>
+          <span class='linkedin' /></a>
+        <a href='https://www.instagram.com/murypstudio/' rel='nofollow' target='_blank' title='instagram'>
+          <span class='instagram' /></a>
+        <a href='https://twitter.com/murypstudio' rel='nofollow' target='_blank' title='twitter'>
+          <span class='twitter' /></a>
+        <a href='https://facebook.com/murypstudio' rel='nofollow' target='_blank' title='facebook'>
+          <span class='facebook' /></a>
+        <a href='https://id.pinterest.com/alifmuryp/' rel='nofollow' target='_blank' title='pinteres'>
+          <span class='pinteres' /></a>
+        <a href='https://www.deviantart.com/alifmuryp' rel='nofollow' target='_blank' title='DevianArt'>
+          <span class='deviantart' /></a>
+        <a href='http://tumblr.com/blog/murypstudio' rel='nofollow' target='_blank' title='Tumblr'>
+          <span class='tumblr' /></a>
+        <a href='https://www.behance.net/muryp' rel='nofollow' target='_blank' title='Behance'>
+          <span class='behance' /></a>
+        <a href='https://www.dribbble.com/murypstudio' rel='nofollow' target='_blank' title='Drible'>
+          <span class='drible' /></a>
+      </div>
+        </div>
+      </div>
+      <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/contact">CONTACT</a></li>
+      </ul>
+      <input type="checkbox" id="nav1" />
+      <label for="nav1">Kategori
+      </label>
+      <div class="mynav">
+        <li><a href="/">kategori</a></li>
+      </div>
+    </div>
+  </div>
+  <!------------- Header ------------->
+  <header class="header">
+    <a href="/"><svg version='1.0' viewBox='0 0 1350 192' width='200px' xmlns='http://www.w3.org/2000/svg'>
+      <g fill='#fff' transform='translate(0 192) scale(.1 -.1)'>
+        <path d='m11950 1733c-14-2-38-10-55-18-16-7-39-16-49-20-18-5-18-6 1-28 42-46 44-60 37-235-4-92-10-176-14-186-6-17-17-20-72-21-72-2-187-36-258-76-8-5-25-13-36-18-30-13-105-89-129-131-16-28-20-54-20-126 0-87 1-93 34-141 19-28 55-64 80-81 43-30 53-32 129-32 71 0 91 4 149 31 38 18 76 38 85 46 20 18 55 9 63-16 3-9 19-28 36-40 41-30 90-25 182 18 71 33 79 51 23 51-22 0-40 8-58 28-49 52-50 69-42 535 7 463 9 448-41 459-11 3-31 3-45 1zm-179-590c103-32 99-24 99-193v-148l-33-43c-37-50-74-62-152-53-96 12-161 77-185 186-24 107 13 206 91 241 72 32 104 34 180 10z' />
+        <path d='m12463 1689c-13-13-46-33-81-48-26-12-28-18-36-93-8-71 2-74 80-22 66 44 76 61 72 121-3 48-15 62-35 42z' />
+        <path d='m840 1510c-25-16-51-30-57-30-7 0-13-4-13-9s-10-13-22-17c-11-3-62-31-112-61-49-30-99-59-111-64-11-5-27-13-35-19-37-24-257-153-275-161-25-12-104-59-133-80-46-33-51-139-8-177 19-17 166-107 206-125 8-4 29-16 45-27 17-11 37-23 45-27s44-24 79-46c35-21 74-43 85-48 12-5 35-18 51-29 17-11 37-23 45-27s42-23 75-43c196-119 241-132 287-82 37 39 50 69 42 95-10 34-44 77-68 88-11 5-34 18-51 29-16 11-37 23-45 27s-44 24-79 46c-35 21-74 43-85 48-12 5-34 18-51 29-16 11-37 23-45 27s-58 32-110 63-103 59-112 63c-26 9-23 54 3 62 12 4 77 40 144 81 68 41 128 74 134 74s11 4 11 9 10 13 22 17c11 3 60 30 108 59 47 29 103 60 123 70 46 22 97 81 97 113 0 93-99 130-190 72z' />
+        <path d='m3081 1520c-30-26-41-99-18-133 12-19 227-157 244-157 3 0 64-36 137-79 72-43 160-95 196-114 88-47 86-66-15-117-11-5-27-14-35-20-24-16-214-125-230-133-8-4-28-16-45-27-16-11-39-24-51-29-11-5-51-28-88-50-36-23-70-41-74-41-5 0-19-11-32-25-19-20-24-37-24-77 0-44 4-54 32-79 50-45 84-39 204 31 57 33 110 65 118 70 8 6 24 14 36 19 11 5 50 27 85 48 35 22 71 42 79 46s29 16 45 27c17 11 37 23 45 27s58 32 110 63 102 59 110 63c38 19 64 37 91 63 25 24 29 35 29 78 0 33-7 59-18 73-15 19-244 163-259 163-3 0-60 33-128 74-67 41-132 77-144 81-11 3-21 11-21 16s-5 9-11 9-48 22-93 49c-178 108-225 122-275 81z' />
+        <path d='m5142 1508c-50-40-72-70-97-128-30-69-101-183-155-247-6-7-25-34-42-60-50-76-118-163-127-163-5 0-34 51-65 113-31 61-78 153-106 202-82 150-120 236-120 270 0 42-20 38-74-17-57-56-60-63-91-213-9-44-23-105-30-135s-21-91-30-135-23-105-30-135c-32-129-38-178-25-210 19-47 60-41 138 21 34 27 60 54 57 59-4 6-22 10-41 10-22 0-37 6-41 16-6 17 11 138 32 224 31 131 45 196 45 218 0 12 6 22 13 22 18 0 60-73 175-305 30-60 60-121 67-135 6-14 18-46 25-73 7-26 17-50 22-53 13-8 118 96 118 116 0 25 36 120 72 188 47 91 45 87 133 205 62 83 82 104 91 95 13-14 34-177 34-261 0-103 31-330 48-354 27-36 82-31 148 13 30 20 54 40 54 44s-13 13-29 18c-39 14-58 53-66 133-3 35-12 132-20 214-27 287-35 400-29 438 8 46-1 47-54 5z' />
+        <path d='m8120 1478c-36-5-88-6-116-3-43 4-57 1-88-20-73-49-95-68-90-77 3-4 30-5 61-1l56 6-7-380c-7-345-6-382 9-397 21-21 69-20 130 2 119 43 153 82 72 82-84 0-81-15-68 331 7 167 13 320 14 339l2 35 69 3c187 8 302-131 235-283-24-55-88-122-130-137-16-5-29-14-29-19 0-12 67-12 75 0 3 6 26 20 51 32 24 13 69 48 98 79 108 114 136 225 76 308-72 100-201 131-420 100z' />
+        <path d='m9365 1473c-234-72-347-197-290-322 28-63 99-102 280-156 140-42 205-97 205-175 0-45-45-95-106-117-88-32-235-12-291 40l-31 29-56-37c-83-55-86-91-9-125 146-64 419 19 556 170 58 65 73 106 61 171-13 65-91 120-214 149-86 20-206 70-237 99-65 60-63 141 6 183 30 19 49 22 136 22 108-1 148-14 158-55 7-27 27-16 99 51l53 50-24 20c-20 18-37 20-135 19-69-1-130-7-161-16z' />
+        <path d='m2342 1461c-33-17-82-83-96-129-4-12-12-22-17-22s-9-5-9-11-27-56-60-111c-33-54-60-101-60-105 0-3-33-60-74-128-41-67-77-132-81-144-3-11-11-21-16-21s-9-5-9-10c0-6-20-45-45-88-25-42-45-89-45-105 0-38 26-74 67-93 31-16 37-15 73 1 30 14 49 33 80 86 22 37 40 70 40 73s38 68 85 146 85 144 85 147 27 50 60 105c33 54 60 101 60 105 0 3 23 42 50 88 38 63 50 92 50 123 0 57-7 70-51 92-46 24-45 24-87 1z' />
+        <path d='m1123 1459c-32-16-56-73-48-111 4-17 32-72 62-122 30-49 59-99 64-111 10-21 16-32 100-171 27-45 49-84 49-87 0-4 27-51 60-105 33-55 60-105 60-111s4-11 8-11c5 0 18-19 28-42 48-107 123-135 191-72 41 38 36 92-15 177-23 37-42 70-42 73s-29 55-65 114-65 113-65 119-4 11-9 11-13 10-17 22c-3 12-25 51-47 87s-53 91-70 121c-55 102-108 188-127 205-23 21-88 28-117 14z' />
+        <path d='m2770 1418c-18-18-37-45-42-60-6-15-14-28-19-28s-9-5-9-11-27-56-60-111c-33-54-60-101-60-105 0-3-27-49-59-103-32-53-62-107-66-119-3-11-11-21-16-21s-9-5-9-11-29-59-63-118c-90-150-93-160-68-209 26-50 72-70 125-52 28 9 44 27 89 103 30 51 68 117 84 147 17 30 48 85 70 121s44 75 47 87c4 12 12 22 17 22s9 5 9 11 29 59 64 118c84 140 136 240 136 261 0 96-105 144-170 78z' />
+        <path d='m10005 1419c-4-5-17-15-28-20-75-34-85-48-86-114-1-30-9-50-31-75-36-43-37-48-2-52l27-3 5-205c5-211 8-225 52-281 21-26 74-49 115-49 53 0 133 31 221 87 34 21 25 37-13 22-61-24-146-2-193 49l-32 36 2 170 3 171 25 3c89 9 244 64 238 84-3 7-55 11-133 12l-130 1-3 88c-2 67-6 87-17 87-8 0-17-5-20-11z' />
+        <path d='m7630 1249c-35-14-90-69-90-91 0-9 9-22 20-28 15-8 20-21 20-54 0-56-31-125-100-219-39-54-46-52-69 25-18 59-71 184-98 233-13 22-27 49-32 60-16 36-60 75-84 75-13 0-45-11-70-25-27-14-49-20-52-15-4 6-20 10-36 10s-46 7-66 15c-45 19-100 19-137 0-15-8-33-15-38-15-6 0-27-13-47-28-20-16-44-32-53-35-10-4-18-11-18-17 0-5-8-10-18-10-13 0-22 12-31 40-12 42-43 70-76 70-39 0-155-52-155-69 0-5 11-12 25-15 14-4 34-21 45-39 18-29 20-51 20-254 0-172 3-223 13-223 6 0 38 18 70 41 57 40 57 41 57 92 0 88 27 260 49 310 25 57 55 75 102 58 17-6 64-11 104-11 60 0 81 5 120 26 29 17 50 23 54 17 3-6 20-17 38-26 82-42 133-148 197-404 22-88 21-94-29-147-25-27-45-50-45-52 0-1-27-30-60-63s-60-63-60-67c0-3-13-23-30-44-16-21-30-42-30-48 0-5-6-15-14-21-8-7-17-28-21-47-3-20-8-41-11-48-6-16 24-49 37-41 5 4 9 22 9 42 0 19 6 49 14 66 8 18 17 39 20 47 14 36 79 125 118 162 15 15 28 29 28 31s75 80 166 173c164 168 264 287 296 354 43 92 47 189 8 210-22 12-27 12-60-1z' />
+        <path d='m5530 1232c-20-9-49-27-65-39l-30-22 32-11c46-17 55-52 63-247 6-164 8-174 33-212 46-69 135-94 238-66 62 17 182 76 194 95 12 20 26 9 45-34 21-51 43-66 94-66 46 0 146 45 170 77 18 25 18 25-5 23-49-4-70 1-89 20s-20 33-20 243c0 204-2 225-18 240-30 27-60 19-145-37-24-16-26-21-14-35 25-28 26-47 18-202l-9-152-72-72h-95c-93 0-94 0-128 33-29 28-36 44-45 100-6 37-8 111-5 164 11 188-37 252-147 200z' />
+        <path d='m10451 1217c-35-18-63-36-63-41 1-4 16-15 34-25 41-20 45-38 47-195 0-65 6-148 13-183 10-54 17-69 49-98 62-56 136-66 239-33 55 17 102 41 141 71 20 15 41 27 47 27 5 0 17-20 26-43 9-25 27-50 41-57 50-27 186 14 221 67 14 23 14 24-8 22-46-4-68 1-88 24-21 21-22 30-19 237 4 285-2 295-129 224-61-34-64-38-46-51s19-26 16-180c-3-148-6-169-23-192-38-48-59-56-149-56-155 0-172 28-180 287-5 170-6 177-29 202-32 34-62 33-140-7z' />
+        <path d='m13075 1226c-38-6-80-17-92-23-12-7-27-13-33-13-20 0-118-70-160-114-66-69-82-109-84-206-1-97 16-137 82-188 60-47 112-62 212-62 84 0 127 10 180 41 8 5 22 12 30 16 36 16 121 86 152 125 33 42 68 129 68 171 0 40-34 127-63 163-40 48-93 80-147 88-25 4-52 9-60 10-8 2-46-2-85-8zm64-90c74-47 141-162 141-242 0-35-36-133-57-156-47-53-140-73-197-43-15 8-33 15-40 15-18 0-80 61-107 105-21 35-24 52-23 125 1 95 22 150 76 195 25 21 39 25 99 25 56 0 77-5 108-24z' />
+        <path d='m12360 1221c-14-3-40-14-59-25-33-17-34-19-16-32 10-7 23-15 29-17 8-3 10-68 8-220-3-225-2-238 41-284 17-19 31-23 81-23 38 1 68 6 80 15 11 8 26 15 34 15s27 11 44 25l30 25h-25c-58 0-88 13-112 48s-24 36-18 237c6 197 6 202-15 223-22 22-52 26-102 13z' />
+      </g>
+    </svg></a>
+  </header>
+  <!------------- SKILL ------------->
+  <h1 class='h1myskill'>My Skill</h1>
+  <div class='myskill'>
+    <div class='myskillcontainer'>
+      <h2>HTML and CSS</h2>
+      <p>
+        Mulai dari basik hingga menjadi sebuah web.
+      </p>
+    </div>
+    <div class='myskillcontainer'>
+      <h2>Java Script</h2>
+      <p>
+        Membuat Web menjadi lebih interaktif.
+      </p>
+    </div>
+    <div class='myskillcontainer'>
+      <h2>Responsive </h2>
+      <p>
+        Membuat web/blog dapat dibuka diberbagai platfom tanpa mengurangi estetika.
+      </p>
+    </div>
+    <div class='myskillcontainer'>
+      <h2>Github</h2>
+      <p>
+        Bekerja dimana saja dan kapan saja dan memudahkan untuk riview, serta dapat mengembalikan ke versi lama script.
+      </p>
+    </div>
+    <div class='myskillcontainer'>
+      <h2>GitLab</h2>
+      <p>
+        Bekerja dimana saja dan kapan saja dan memudahkan untuk riview, serta dapat mengembalikan ke versi lama script.
+      </p>
+    </div>
+    <div class='myskillcontainer'>
+      <h2>Blogger</h2>
+      <p>
+        Mudah dan gratis hosting.
+      </p>
+    </div>
+    <div class='myskillcontainer'>
+      <h2>UI/UX </h2>
+      <p>
+        Membuat dan mendesain prototype sebelum diaplikasikan menjadi web/blog.
+      </p>
+    </div>
+    <div class='myskillcontainer'>
+      <h2>SEO </h2>
+      <p>
+        Dapat dengan mudah diindex oleh mesin pencarian google, sehingga mendapat pengunjung organik.
+      </p>
+    </div>
+    <div class='myskillcontainer'>
+      <h2> Linux Command </h2>
+      <p>
+        Dapat dengan mudah diindex oleh mesin pencarian google, sehingga mendapat pengunjung organik.
+      </p>
+    </div>
+    <div class='myskillcontainer'>
+      <h2> Hugo </h2>
+      <p>
+        Memudahkan untuk pembuatan web dinamis pada hosting statis. Dan memudahkan pembuatan konten karena Menggunakan bahasa markup yang lebih simple yaitu markdown.
+      </p>
+    </div>
+  </div>
+  <!------------- Main ------------->
+  <div class="main">
+    <!------------- ReadMore ------------->
+    <div style="" class="navpost">
+      <a href="/">Home</a>
+      <a href="/">Label1</a>
+      <a href="/">Label2</a>
+      <a href="/">Label3</a>
+      <a href="/">Label4</a>
+      <a href="/">Label4</a>
+      <a href="/">Label4</a>
+      <a href="/">Label4</a>
+      <a href="/">Label4</a>
+      <a href="/">Label4</a>
+      <a href="/">Label4</a>
+    </div>
+    <div class="myread">
+      <div class="content">
+        <img src="https://1.bp.blogspot.com/-YwOnlIuBVEQ/X7z0nlxsBaI/AAAAAAAAE-E/j42XBi1K_4U4lUvWnuQsvuFRabbQnltKgCLcBGAsYHQ/s200/IMG_20201124_185422-min.jpg" alt="" />
+        <div class="readMore">
+          <h4><a href="/">tes judul</a></h4>
+        </div>
+      </div>
+      <div class="content">
+        <img src="https://1.bp.blogspot.com/-YwOnlIuBVEQ/X7z0nlxsBaI/AAAAAAAAE-E/j42XBi1K_4U4lUvWnuQsvuFRabbQnltKgCLcBGAsYHQ/s200/IMG_20201124_185422-min.jpg" alt="" />
+        <h4 class="readMore">Judul nih Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, aut, cupiditate eveniet est consequuntur quas deleniti, officiis vero odit ducimus labore consectetur quod, adipisci hic eum aliquid nobis delectus dolore!</h4>
+      </div>
+      <div class="content">
+        <img src="https://1.bp.blogspot.com/-YwOnlIuBVEQ/X7z0nlxsBaI/AAAAAAAAE-E/j42XBi1K_4U4lUvWnuQsvuFRabbQnltKgCLcBGAsYHQ/s200/IMG_20201124_185422-min.jpg" alt="" />
+        <h4 class="readMore">Judul nih Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, aut, cupiditate eveniet est consequuntur quas deleniti, officiis vero odit ducimus labore consectetur quod, adipisci hic eum aliquid nobis delectus dolore!</h4>
+      </div>
+      <div class="content">
+        <img src="https://1.bp.blogspot.com/-YwOnlIuBVEQ/X7z0nlxsBaI/AAAAAAAAE-E/j42XBi1K_4U4lUvWnuQsvuFRabbQnltKgCLcBGAsYHQ/s200/IMG_20201124_185422-min.jpg" alt="" />
+        <h4 class="readMore">Judul nih Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, aut, cupiditate eveniet est consequuntur quas deleniti, officiis vero odit ducimus labore consectetur quod, adipisci hic eum aliquid nobis delectus dolore!</h4>
+      </div>
+      <div class="content">
+        <img src="https://1.bp.blogspot.com/-YwOnlIuBVEQ/X7z0nlxsBaI/AAAAAAAAE-E/j42XBi1K_4U4lUvWnuQsvuFRabbQnltKgCLcBGAsYHQ/s200/IMG_20201124_185422-min.jpg" alt="" />
+        <h4 class="readMore">Judul nih Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, aut, cupiditate eveniet est consequuntur quas deleniti, officiis vero odit ducimus labore consectetur quod, adipisci hic eum aliquid nobis delectus dolore!</h4>
+      </div>
+      <div class="content">
+        <img src="https://1.bp.blogspot.com/-YwOnlIuBVEQ/X7z0nlxsBaI/AAAAAAAAE-E/j42XBi1K_4U4lUvWnuQsvuFRabbQnltKgCLcBGAsYHQ/s200/IMG_20201124_185422-min.jpg" alt="" />
+        <h4 class="readMore">Judul nih Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, aut, cupiditate eveniet est consequuntur quas deleniti, officiis vero odit ducimus labore consectetur quod, adipisci hic eum aliquid nobis delectus dolore!</h4>
+      </div>
+      <div class="content">
+        <img src="https://1.bp.blogspot.com/-YwOnlIuBVEQ/X7z0nlxsBaI/AAAAAAAAE-E/j42XBi1K_4U4lUvWnuQsvuFRabbQnltKgCLcBGAsYHQ/s200/IMG_20201124_185422-min.jpg" alt="" />
+        <h4 class="readMore">Judul nih Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, aut, cupiditate eveniet est consequuntur quas deleniti, officiis vero odit ducimus labore consectetur quod, adipisci hic eum aliquid nobis delectus dolore!</h4>
+      </div>
+      <div class="content">
+        <img src="https://1.bp.blogspot.com/-YwOnlIuBVEQ/X7z0nlxsBaI/AAAAAAAAE-E/j42XBi1K_4U4lUvWnuQsvuFRabbQnltKgCLcBGAsYHQ/s200/IMG_20201124_185422-min.jpg" alt="" />
+        <h4 class="readMore">Judul nih Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, aut, cupiditate eveniet est consequuntur quas deleniti, officiis vero odit ducimus labore consectetur quod, adipisci hic eum aliquid nobis delectus dolore!</h4>
+      </div>
+      <div class="content">
+        <img src="https://1.bp.blogspot.com/-YwOnlIuBVEQ/X7z0nlxsBaI/AAAAAAAAE-E/j42XBi1K_4U4lUvWnuQsvuFRabbQnltKgCLcBGAsYHQ/s200/IMG_20201124_185422-min.jpg" alt="" />
+        <h4 class="readMore">Judul nih Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, aut, cupiditate eveniet est consequuntur quas deleniti, officiis vero odit ducimus labore consectetur quod, adipisci hic eum aliquid nobis delectus dolore!</h4>
+      </div>
+      <div class="content">
+        <img src="https://1.bp.blogspot.com/-YwOnlIuBVEQ/X7z0nlxsBaI/AAAAAAAAE-E/j42XBi1K_4U4lUvWnuQsvuFRabbQnltKgCLcBGAsYHQ/s200/IMG_20201124_185422-min.jpg" alt="" />
+        <h4 class="readMore">Judul nih Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, aut, cupiditate eveniet est consequuntur quas deleniti, officiis vero odit ducimus labore consectetur quod, adipisci hic eum aliquid nobis delectus dolore!</h4>
+      </div>
+    </div>
+    <!------------- Contact ------------->
+    <div id="ContactForm1" class="Contactb">
+      <h1 class="Contact">Contact Me</h1>
+      <blockquote>
+        Gunakan Telegram lebih aman
+      </blockquote>
+      <div class='contactkulah'>
+        <h4>Get In Touch</h4>
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <input placeholder="Your Name" type="text" name="name" />
+          </p>
+          <p>
+            <input placeholder="yourmail@mail.com" type="email" name="email" />
+          </p>
+          <p>
+            <textarea placeholder="Your message..." name="message"></textarea>
+          </p>
+          <p>
+            <button type="submit">Kirim</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!------------- Footer ------------->
+  <footer class='central' id='footer'>
+    <div class='credit'>
+      <div class="footerTop">
+        <div class="kanan">
+          <h2>Product</h2>
+          <a href="https://muryp.my.id/">MuryP Beta</a>
+          <a href="https://muryp.my.id/">MuryP Studio</a>
+          <a href="https://muryp.my.id/">MuryP History</a>
+          <a href="https://muryp.my.id/">MuryP Arts</a>
+          <a href="https://muryp.my.id/">MuryP Search</a>
+        </div>
+        <div class="tengah">
+          <div class='sosmednav2 sosmednav contactFooter contactkulah'>
+            <h4>For bussines Contact :</h4>
+            <a href='#' rel='nofollow' target='_blank' title='telegram'><span class='telegram' /></a>
+            <a href='#' rel='nofollow' target='_blank' title='Gmail'><span class='gmail' /></a>
+            <h4>Ask me on:</h4>
+            <a href='#' rel='nofollow' target='_blank' title='Whatsapp'><span class='whatsapp' /></a>
+            <a href='https://twitter.com/alifmuryp' rel='nofollow' target='_blank' title='twitter'><span class='twitter' /></a>
+            <a href='https://facebook.com/alifmuryp' rel='nofollow' target='_blank' title='Facebook'><span class='facebook' /></a>
+            <a href='#' rel='nofollow' target='_blank' title='Youtube'><span class='youtube' /></a>
+          </div>
+        </div>
+        <div class="kiri">
+          <h2>Laman</h2>
+          <a href="/">Home</a><a href="/about">About</a><a href="/contact">Contact</a><a href='/p/privacy.html'>privacy policy</a>  <a href='/p/disclaimer.html'>Disclaimer</a>  <a href='/p/faq.html'>F.A.Q</a>  <a href='/p/tos.html'>T.O.S</a>  <a href='/p/sitemap.html'>Sitemap</a>
+        </div>
+      </div>
+      <hr />
+      Dibuat dengan Cinta di Ambarawa. <a href='/'>Alif MuryP</a>&#169; Copyright 2017-2020, All rights reserved. Thanks For Hugo, Gitlab, Netlify, And Exabytes
+    </div>
+  </footer>
+</body>
+</html>
